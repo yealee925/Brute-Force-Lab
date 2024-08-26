@@ -1,7 +1,5 @@
 # Root-Access-Lab
 
-# PROJECTNAME
-
 ## Objective
 [Brief Objective - Remove this afterwards]
 
