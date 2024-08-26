@@ -22,7 +22,7 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
    
    ![image](https://github.com/user-attachments/assets/55e59d16-bc5f-40c5-96dc-cfe9ab85eca7)
    - The open ports in the target's system are: FTP (insecure), SSH (secure), HTTP (insecure)
-3. Focusing on the open FTP port, connect to the port by inputting the **ftp** command with the IP address
+3. Focusing on the open FTP port, connect to the port by inputting the **ftp** command and the IP address
 4. Log in by using the login **anonymous** (the FTP server in this scenario supports anonymous logins)
   
    ![image](https://github.com/user-attachments/assets/dc3df797-011e-47e2-ad47-fef4737fddb9)
