@@ -2,7 +2,6 @@
 
 ## Objective
 The Root Access Lab introduces the basics of hacking into a target Linux system (10.10.177.161). The hacking involved active reconnaissance to gather the information necessary to gain access to the user's files.
-- Lab was provided through **TryHackMe**
 
 ### Skills Learned
 - Advanced knowledge of working with a Linux system and several Linux commands
@@ -27,3 +26,6 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 
    ![image](https://github.com/user-attachments/assets/00232fee-d5aa-4ad3-b0c0-1b3f28630992)
 10. The password was indeed for the root account and have successfully gained access to the target's Linux system
+
+
+Lab was provided through **TryHackMe**
