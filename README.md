@@ -28,4 +28,4 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 10. The password was indeed for the root account and have successfully gained access to the target's Linux system
 
 
-Lab was provided through **TryHackMe**
+[Lab was provided through **TryHackMe**]
