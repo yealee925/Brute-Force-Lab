@@ -19,7 +19,7 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 
 ## Steps
 1. Start the terminal and use nmap
-  ![image](https://github.com/user-attachments/assets/e75bd3b8-1270-4a6a-913a-f4c0b788ea89)
+![image](https://github.com/user-attachments/assets/e75bd3b8-1270-4a6a-913a-f4c0b788ea89)
 
 
-2. 
+3. 
