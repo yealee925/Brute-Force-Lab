@@ -30,7 +30,7 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 6. Input **get secret.txt** to download the file then type **exit** to exit the FTP server
    
    ![image](https://github.com/user-attachments/assets/585d971e-8d60-4c44-923c-8685be3e78fb)
-8. Now type **cat** secret.txt to see the contents of the file which appears to have a password that was unintentionally copied to the FTP server
+8. Now type **cat secret.txt** to see the contents of the file which appears to have a password that was unintentionally copied to the FTP server
 9. Check to see if the contents could be the password to the root account by typing **ssh root@10.10.177.161**
 
    ![image](https://github.com/user-attachments/assets/00232fee-d5aa-4ad3-b0c0-1b3f28630992)
