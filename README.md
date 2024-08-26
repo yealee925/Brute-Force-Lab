@@ -34,3 +34,4 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 9. Check to see if the contents could be the password to the root account by typing **ssh root@10.10.177.161** and inputting the password that was found earlier
 
    ![image](https://github.com/user-attachments/assets/00232fee-d5aa-4ad3-b0c0-1b3f28630992)
+10. The password was indeed for the root account and have successfully gained access to the target's Linux system
