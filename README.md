@@ -1,4 +1,4 @@
-# Root-Access-Lab
+# Root Access Lab
 
 ## Objective
 [Brief Objective - Remove this afterwards]
