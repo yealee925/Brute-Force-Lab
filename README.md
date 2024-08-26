@@ -18,10 +18,13 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 - Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
-1. Start the terminal and use nmap
+1. Start the terminal and use the **nmap** tool with the target's IP address to begin reconnaissance
    
    ![image](https://github.com/user-attachments/assets/55e59d16-bc5f-40c5-96dc-cfe9ab85eca7)
+- The open ports in the target's system are: FTP (insecure), SSH (secure), HTTP (insecure)
+2. Focusing on the open FTP port, connect to the port by inputting the **ftp** command
+3. Log in by using the login **anonymous** (the FTP server in this scenario support anonymous logins)
 
-
-
-3. 
+  ![image](https://github.com/user-attachments/assets/dc3df797-011e-47e2-ad47-fef4737fddb9)
+4. Enter the **ls** command to get a list of all the files on the system
+5. Download the secret.txt file using the **get** command then input **exit** to exit the FTP server
