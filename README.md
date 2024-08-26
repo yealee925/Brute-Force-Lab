@@ -21,7 +21,7 @@ The Root Access Lab introduces the basics of hacking into a target Linux system 
 1. Start the terminal and use the **nmap** tool with the target's IP address to begin reconnaissance
    
    ![image](https://github.com/user-attachments/assets/55e59d16-bc5f-40c5-96dc-cfe9ab85eca7)
-   The open ports in the target's system are: FTP (insecure), SSH (secure), HTTP (insecure)
+   - The open ports in the target's system are: FTP (insecure), SSH (secure), HTTP (insecure)
 3. Focusing on the open FTP port, connect to the port by inputting the **ftp** command
 4. Log in by using the login **anonymous** (the FTP server in this scenario support anonymous logins)
   
