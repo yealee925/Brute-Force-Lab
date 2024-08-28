@@ -15,7 +15,7 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 1. Begin the terminal and scan the top 1000 ports on the target's IP address (10.10.59.245) using the **nmap** command
    
    ![image](https://github.com/user-attachments/assets/5f7c6e90-0639-4ed8-b1e1-8ba9d2b4f67b)
-   - The scan reveals that the FTP port is open and an "Anonymous" login is allowed, so no password is necessary to enter the FTP server 
+   - The scan reveals the FTP port is open and an "Anonymous" login is allowed, so no password is necessary to enter the FTP server 
 3. Connect to the port by inputting the **ftp** command and the target's IP address
 4. Use the login name **anonymous** and clicking enter when prompted for a password to sucessfully login to the FTP server
   
@@ -23,7 +23,7 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 5. Enter the **ls** command to get a list of all the files on the system and note the file titled *PUBLIC_NOTICE.txt*
 6. Input **get PUBLIC_NOTICE.txt** to download the file then type **exit** to exit the FTP server
    
-   ![image](https://github.com/user-attachments/assets/c12d6b46-6d25-4814-9fee-7a2209fa7503)
+   ![image](https://github.com/user-attachments/assets/84ed20a4-8699-443f-a7af-33fa93bd7ac3)
 8. Now type **cat secret.txt** to see the contents of the file which appears to have a password that was unintentionally copied to the FTP server
 9. Check to see if the contents could be the password to the root account by typing **ssh root@10.10.177.161** and inputting the password that was found earlier
 
