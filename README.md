@@ -24,11 +24,16 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 6. Input **get PUBLIC_NOTICE.txt** to download the file then type **exit** to exit the FTP server
    
    ![image](https://github.com/user-attachments/assets/84ed20a4-8699-443f-a7af-33fa93bd7ac3)
-8. Now type **cat secret.txt** to see the contents of the file which appears to have a password that was unintentionally copied to the FTP server
-9. Check to see if the contents could be the password to the root account by typing **ssh root@10.10.177.161** and inputting the password that was found earlier
+8. Now type **cat PUBLIC_NOTICE.txt** to see the contents of the file which appears to have a potential username to an account (mike)
 
-   ![image](https://github.com/user-attachments/assets/00232fee-d5aa-4ad3-b0c0-1b3f28630992)
-10. The password was indeed for the root account and have successfully gained access to the target's Linux system
+   ![image](https://github.com/user-attachments/assets/2ebf88f9-86da-44e0-9231-2b8b311a684c)
+9. Ensure Hydra is installed on the system, which will be used to crack the password. Insert **hydra -t 4 -l mike -P /usr/share/wordlists/rockyou.txt -vV 10.10.59.245 ftp** into the terminal
+
+   ![image](https://github.com/user-attachments/assets/e6a0d535-0aed-4cd1-bb6b-784bbd61878a)
+   - The password was found after five attempts as *password*
+11. Enter the FTP server through **ftp 10.10.59.245**. Login using the username and password that were identified earlier to successfully gain access.
+    ![image](https://github.com/user-attachments/assets/70955229-bfd6-4fb8-9240-478ef4ee92f1)
 
 
-[Lab was provided through **TryHackMe**]
+
+Lab was provided through **TryHackMe**
