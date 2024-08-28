@@ -6,7 +6,7 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 ### Skills Learned
 - Advanced knowledge of working with a Linux system and practiced inputting Linux commands
 - Enhanced understanding of hacking techniques
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Development of critical thinking and problem-solving skills in cybersecurity
 
 ### Tools Used
 -  Hydra, a brute force tool used to crack passwords 
