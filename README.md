@@ -1,4 +1,4 @@
-# Brute Force (Through FTP)
+# Brute Force (FTP Server)
 
 ## Objective
 The Brute Force Lab demonstrated the steps hackers may use to hack into an account through active reconnaissance and take advantage of insecure practices. The lab's goal was to gain a deeper understanding of both hacking tactics and the ability to examine whether insecure practices are being used in one's system.
