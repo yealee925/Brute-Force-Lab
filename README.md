@@ -20,10 +20,10 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 4. Use the login name **anonymous** and clicking enter when prompted for a password to sucessfully login to the FTP server
   
    ![image](https://github.com/user-attachments/assets/44f38f50-40b0-4d6a-b2e2-23e913c62a2b)
-5. Enter the **ls** command to get a list of all the files on the system and note the file titled *secret.txt*
-6. Input **get secret.txt** to download the file then type **exit** to exit the FTP server
+5. Enter the **ls** command to get a list of all the files on the system and note the file titled *PUBLIC_NOTICE.txt*
+6. Input **get PUBLIC_NOTICE.txt** to download the file then type **exit** to exit the FTP server
    
-   ![image](https://github.com/user-attachments/assets/585d971e-8d60-4c44-923c-8685be3e78fb)
+   ![image](https://github.com/user-attachments/assets/c12d6b46-6d25-4814-9fee-7a2209fa7503)
 8. Now type **cat secret.txt** to see the contents of the file which appears to have a password that was unintentionally copied to the FTP server
 9. Check to see if the contents could be the password to the root account by typing **ssh root@10.10.177.161** and inputting the password that was found earlier
 
