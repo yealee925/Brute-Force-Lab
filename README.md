@@ -17,7 +17,7 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
    ![image](https://github.com/user-attachments/assets/5f7c6e90-0639-4ed8-b1e1-8ba9d2b4f67b)
    - The scan reveals the FTP port is open and an "Anonymous" login is allowed, so no password is necessary to enter the FTP server 
 3. Connect to the port by inputting the **ftp** command and the target's IP address
-4. Use the login name **anonymous** and clicking enter when prompted for a password to sucessfully login to the FTP server
+4. Use the login name *anonymous* and clicking enter when prompted for a password to sucessfully login to the FTP server
   
    ![image](https://github.com/user-attachments/assets/44f38f50-40b0-4d6a-b2e2-23e913c62a2b)
 5. Enter the **ls** command to get a list of all the files on the system and note the file titled *PUBLIC_NOTICE.txt*
