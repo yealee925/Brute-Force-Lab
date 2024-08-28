@@ -31,7 +31,7 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 
    ![image](https://github.com/user-attachments/assets/e6a0d535-0aed-4cd1-bb6b-784bbd61878a)
    - The password was discovered after five attempts as *password*
-11. Enter the FTP server through **ftp 10.10.59.245**. Login using the username and password that were identified earlier to successfully gain access.
+11. Enter the FTP server through **ftp 10.10.59.245**. Login using the username and password that were identified earlier to successfully gain access
    
     ![image](https://github.com/user-attachments/assets/70955229-bfd6-4fb8-9240-478ef4ee92f1)
 
