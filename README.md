@@ -1,12 +1,15 @@
 # Brute Force (Through FTP)
 
 ## Objective
-The Root Access Lab introduces the basics of hacking into a target Linux system (10.10.177.161). The hacking involved active reconnaissance to gather the information necessary to gain access to the user's files.
+The Brute Force Lab demonstrated the steps hackers may use to hack into an account through active reconnaissance and take advantage of insecure practices. The lab's goal was to gain a deeper understanding of both hacking tactics and the ability to examine whether insecure practices are being used in one's system.
 
 ### Skills Learned
 - Advanced knowledge of working with a Linux system and practiced inputting Linux commands
-- Enhanced understanding of active reconnaissance through the usage of **nmap**
+- Enhanced understanding of insecure practices
 - Development of critical thinking and problem-solving skills in cybersecurity.
+
+### Tools Used
+-  Hydra, a brute force tool used to crack passwords 
 
 ## Steps
 1. Start the terminal and use the **nmap** tool with the target's IP address (10.10.177.161) to begin the reconnaissance
