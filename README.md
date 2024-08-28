@@ -12,14 +12,14 @@ The Brute Force Lab demonstrated the steps hackers may use to hack into an accou
 -  Hydra, a brute force tool used to crack passwords 
 
 ## Steps
-1. Start the terminal and use the **nmap** tool with the target's IP address (10.10.177.161) to begin the reconnaissance
+1. Begin the terminal and scan the top 1000 ports on the target's IP address (10.10.59.245) using the **nmap** command
    
-   ![image](https://github.com/user-attachments/assets/55e59d16-bc5f-40c5-96dc-cfe9ab85eca7)
-   - The open ports in the target's system are: FTP (insecure), SSH (secure), HTTP (insecure)
-3. Focusing on the open FTP port, connect to the port by inputting the **ftp** command and the IP address
-4. Log in by using the login **anonymous** (the FTP server in this scenario supports anonymous logins)
+   ![image](https://github.com/user-attachments/assets/5f7c6e90-0639-4ed8-b1e1-8ba9d2b4f67b)
+   - The scan reveals that the FTP port is open and an "Anonymous" login is allowed, so no password is necessary to enter the FTP server 
+3. Connect to the port by inputting the **ftp** command and the target's IP address
+4. Use the login name **anonymous** and clicking enter when prompted for a password to sucessfully login to the FTP server
   
-   ![image](https://github.com/user-attachments/assets/dc3df797-011e-47e2-ad47-fef4737fddb9)
+   ![image](https://github.com/user-attachments/assets/44f38f50-40b0-4d6a-b2e2-23e913c62a2b)
 5. Enter the **ls** command to get a list of all the files on the system and note the file titled *secret.txt*
 6. Input **get secret.txt** to download the file then type **exit** to exit the FTP server
    
